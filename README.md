@@ -6,7 +6,7 @@ To run my code so you know it works:
 - Download the 2004 regular season Retrosheet event file here - it will download as a .zip: https://www.retrosheet.org/game.htm
 - Export all the files from the .zip into a folder, preferably a top-level directory called "Retrosheet" but you could put it wherever
 - Open up R or R Studio, modify the code to set the working directory to wherever you put the retrosheet files, and run batless-barry-bonds.R
-- After literally hundreds of thousands of parsing errors (it's fine don't worry) and 5-10 minutes, you will have the same results
+- After literally hundreds of thousands of parsing failures (it's fine don't worry) and 5-10 minutes, you will have the same results
 
 
 -----
