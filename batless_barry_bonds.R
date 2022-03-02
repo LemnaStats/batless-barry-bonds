@@ -2,6 +2,7 @@ library(readr)
 library(tidyverse)
 
 #Read all 2004 plate appearances by any player into a single file
+#IF YOU ARE RECREATING THIS CHANGE "Retrosheet/" TO THE DIRECTORY LOCATION WHERE YOU HAVE DOWNLOADED THE 2004 RETROSHEET EVENT FILES
 setwd("Retrosheet/")
 retrofile <- list.files(pattern="")
 testsheet <- retrofile %>% map_df(~read_csv(., 
